@@ -1,0 +1,18 @@
+type Ghost {
+  id: ID!
+  name: String!
+  description: String!
+  age: Int!
+  haunting_hours: Int!
+  location: String!
+}
+
+type Query {
+  ghosts(name: String): [Ghost!]!
+}
+
+type Mutation {
+  createGhost(name: String!, description: String!, age: Int!, haunting_hours: Int!, location: String!): Ghost!
+  updateGhost(id: ID!, name: String, description: String, age: Int, haunting_hours: Int, location: String): Ghost!
+  deleteGhost(id: ID!): Boolean!
+}

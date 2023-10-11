@@ -1,0 +1,17 @@
+Suspects and Questions
+--------------------------------------------------------------------------
+Rest Webber (Night Guard)
+Question: "What time did you last check the Mona Lisa room?"
+Answer: "I did my usual rounds at 10 PM. Everything was in order."
+--------------------------------------------------------------------------
+SQL Sally (Curator)
+Question: "When did you last access the Mona Lisa room?"
+Answer: "I was last there at 7 PM for a general inspection."
+--------------------------------------------------------------------------
+Victor Vectors (Janitor)
+Question: "When did you last clean the Mona Lisa room?"
+Answer: "I haven't cleaned there for a week."
+--------------------------------------------------------------------------
+GraphQL Graeme (Museum Director)
+Question: "Did you have any issues with the Museum systems recently?"
+Answer: "We had some issues today, I was not able to enter my office, but Victor, who used to work in IT, has sorted it out. Bless him!"
